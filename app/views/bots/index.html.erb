@@ -1,0 +1,8 @@
+<div class="container-pets">
+<% for bot in @bots%>
+    <div class="container-pet">
+    <%= link_to bot.name, "bots/#{bot.id}", class: "link-pet" %> 
+        <%= image_tag "#{bot.image}", class: "image-creature" %>
+    </div>
+<% end%>
+</div>

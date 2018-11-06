@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AppPets</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  
+    <div class="heather">
+    
+    <div class="heather"  >
+      <%=link_to "/" do%>
+          <%= image_tag "home.png", class: "image-home"%>
+      <% end%>
+
+      <%=link_to "/", class: "link" do%>
+        <h2 class="link">Home</h2>
+      <% end%>
+
+    </div class="heather">
+
+      <div class="sub-menu">
+
+      <%=link_to "/bots", class: "link" do%>
+        <h2 class="link">Bots</h2>
+      <% end%>
+
+      </div>
+      
+      
+    </div>
+    
+    <%= yield %>
+  </body>
+</html>

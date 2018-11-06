@@ -1,0 +1,11 @@
+<div class="container-pets">
+<%= image_tag "#{@bot.image}", class: "image-profile"%>
+    <div style="display: inline-block">
+        <h1><%=@bot.name%></h1>
+        <h2>Mi dueño es: <%= @bot.owner %></h2>
+        <h2>Me encuentro ubicado en: <%= @bot.location%> </h2>
+        <h2>Soy un Bot de Generacion: <%= @bot.creature%> </h2>
+        
+
+    </div>
+</div>

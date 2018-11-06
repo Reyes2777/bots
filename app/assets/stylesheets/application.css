@@ -1,0 +1,92 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import url('https://fonts.googleapis.com/css?family=Mali|Frijole');
+
+ body {
+     background-color: rgb(255, 255, 255);
+     font-family: "Mali","Frijole";
+
+ }
+
+ .heather{
+     background-color: rgb(41, 246, 133);
+     border-radius: 8px;
+     height: 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 30px;
+     margin-right: 30px;
+ }
+ .image-home{
+     width: 30px;
+     height: 30px;
+     vertical-align:middle;
+     margin-right: 10px;
+ }
+
+ .link{
+    color: white;
+    text-decoration: none;
+ }
+ .link-pet{
+    color: #29B6F6;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+ }
+.container-banner{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+ .banner{
+    width: 100%;
+    border-radius: 8px;
+ }
+
+ .sub-menu{
+     align-items: flex-end;
+     margin-right: 30px;
+ }
+
+ .container-pets{
+     background-color: rgb(214, 214, 214);
+     margin-left: 30px;
+     margin-right: 30px;
+     padding-top: 20px;
+     margin-top: 20px;
+     border-radius: 8px;
+ }
+
+ .image-creature{
+     width: 120px;
+     height: 120px;
+     border-radius: 100%;
+     background-color: #29B6F6;
+     border: 3px solid #B3E5FC;
+     margin: 20px;
+ }
+
+.container-pet{
+    display: inline-grid;
+}
+
+.image-profile{
+    display: inline-block;
+
+}
